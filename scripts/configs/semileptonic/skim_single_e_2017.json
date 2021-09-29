@@ -1,0 +1,32 @@
+{
+  "SingleElectron2017B": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/Run2017B-UL2017_MiniAODv1_NanoAODv2-v1/NANOAOD",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2017C": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/Run2017C-UL2017_MiniAODv1_NanoAODv2-v1/NANOAOD",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2017D": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/Run2017D-UL2017_MiniAODv1_NanoAODv2-v1/NANOAOD",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2017E": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/Run2017E-UL2017_MiniAODv1_NanoAODv2-v2/NANOAOD",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2017F": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/Run2017F-UL2017_MiniAODv1_NanoAODv2-v1/NANOAOD",
+    "xsec": 1,
+    "color": 5
+  }
+}

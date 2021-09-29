@@ -1,0 +1,20 @@
+{
+  "MX1800_MY60": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1800_MY_60_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv2-106X_mc2017_realistic_v8-v1/NANOAODSIM"
+  },
+  "MX2200_MY80": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_2200_MY_80_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv2-106X_mc2017_realistic_v8-v1/NANOAODSIM"
+  },
+  "MX2200_MY90": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_2200_MY_90_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv2-106X_mc2017_realistic_v8-v1/NANOAODSIM"
+  },
+  "MX2200_MY600": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_2200_MY_80_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv2-106X_mc2017_realistic_v8-v1/NANOAODSIM"
+  },
+  "MX2400_MY100": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_2200_MY_80_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv2-106X_mc2017_realistic_v8-v1/NANOAODSIM"
+  },
+  "MX3500_MY70": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_3500_MY_70_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv2-106X_mc2017_realistic_v8-v1/NANOAODSIM"
+  }
+}

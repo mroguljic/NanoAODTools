@@ -1,0 +1,44 @@
+{
+  "SingleElectron2016B": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016B-17Jul2018_ver2-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2016C": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016C-17Jul2018-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2016D": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016D-17Jul2018-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2016E": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016E-17Jul2018-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2016F": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016F-17Jul2018-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2016G": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016G-17Jul2018-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  },
+  "SingleElectron2016H": {
+    "maxEvents": -1,
+    "dataset":"/SingleElectron/hqu-NanoTuples-30Apr2020_Run2016H-17Jul2018-v1-b0abb2002249db2b4f7fad7e7c1c0c68/USER",
+    "xsec": 1,
+    "color": 5
+  }
+}

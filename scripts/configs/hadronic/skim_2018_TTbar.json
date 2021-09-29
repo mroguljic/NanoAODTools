@@ -1,0 +1,32 @@
+{
+  "TTbar": {
+    "maxEvents": -1,
+    "dataset":"/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM",
+    "xsec": 1,
+    "color": 5
+  },
+  "TTbarMtt700": {
+    "maxEvents": -1,
+    "dataset":"/TT_Mtt-700to1000_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM",
+    "xsec": 1,
+    "color": 5
+  },
+  "TTbarMtt1000": {
+    "maxEvents": -1,
+    "dataset":"/TT_Mtt-1000toInf_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM",
+    "xsec": 1,
+    "color": 5
+  },
+  "TTbarSemi": {
+    "maxEvents": -1,
+    "dataset":"/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM",
+    "xsec": 1,
+    "color": 5
+  },
+  "TTbarLeptonic": {
+    "maxEvents": -1,
+    "dataset":"/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM",
+    "xsec": 1,
+    "color": 5
+  }
+}

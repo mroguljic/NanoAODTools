@@ -1,0 +1,11 @@
+{
+  "MX2600_MY80": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_2600_MY_80_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v2/NANOAODSIM"
+  },
+  "MX1500_MY90": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1500_MY_90_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM"
+  },
+  "MX1100_MY125": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1100_MY_125_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv2-106X_upgrade2018_realistic_v15_L1v1-v1/NANOAODSIM"
+  }
+}

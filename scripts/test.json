@@ -1,0 +1,30 @@
+{
+  "MX1000_MY125": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_125_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY150": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_150_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY30": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_30_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY40": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_40_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY50": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_50_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY60": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_60_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY70": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_70_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY80": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_80_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+  "MX1000_MY90": {
+    "dataset": "/NMSSM_XtoHYto4b_MX_1000_MY_90_TuneCP5_13TeV-madgraph-pythia8/mrogulji-NanoTuples-25May2020_RunIISummer16MiniAODv3-PUMoriond17_94X_v3-v1-0185a8db413c92e1bf268f4636ab8496/USER"
+  },
+
+}
