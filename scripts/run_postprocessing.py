@@ -76,7 +76,7 @@ def create_jobs(config, queue='',year="2016",jobs_dir="",out_dir="",nFiles=10,CR
 
       allFiles = removeValidFiles(allFiles,sample,year,CR)
       if(len(allFiles)==0):
-        #print("All files in {0} processed".format(sample))
+        print("All files in {0} processed".format(sample))
         continue
       job_list = split_jobs(allFiles, nFiles)
 

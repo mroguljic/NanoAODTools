@@ -1,32 +1,44 @@
-python run_postprocessing.py -c configs/hadronic/skim_data_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 4 -y 2017 -q workday
-python run_postprocessing.py -c configs/hadronic/skim_2017_QCD.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 1 -y 2017 -q workday
-python run_postprocessing.py -c configs/hadronic/skim_2017_TTbar.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 3 -y 2017 -q workday
-python run_postprocessing.py -c configs/hadronic/skim_signal_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 20 -y 2017 -q longlunch
+#Hadronic
+python run_postprocessing.py -c configs/hadronic/2016/skim_data_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2016/ -n 20 -y 2016 -q workday
+python run_postprocessing.py -c configs/hadronic/2016/skim_background_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2016/ -n 10 -y 2016 -q workday
+python run_postprocessing.py -c configs/hadronic/2016/skim_signal_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2016/ -n 20 -y 2016 -q longlunch
+
+python run_postprocessing.py -c configs/hadronic/2017/skim_data_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 4 -y 2017 -q workday
+python run_postprocessing.py -c configs/hadronic/2017/skim_2017_QCD.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 1 -y 2017 -q workday
+python run_postprocessing.py -c configs/hadronic/2017/skim_2017_TTbar.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 3 -y 2017 -q workday
+python run_postprocessing.py -c configs/hadronic/2017/skim_signal_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2017/ -n 20 -y 2017 -q longlunch
 
 
-python run_postprocessing.py -c configs/hadronic/skim_data_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 4 -y 2018 -q workday
-python run_postprocessing.py -c configs/hadronic/skim_2018_QCD.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 1 -y 2018 -q workday
-python run_postprocessing.py -c configs/hadronic/skim_2018_TTbar.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 3 -y 2018 -q workday
-python run_postprocessing.py -c configs/hadronic/skim_signal_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 20 -y 2018 -q longlunch
+python run_postprocessing.py -c configs/hadronic/2018/skim_data_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 4 -y 2018 -q workday
+python run_postprocessing.py -c configs/hadronic/2018/skim_2018_QCD.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 1 -y 2018 -q workday
+python run_postprocessing.py -c configs/hadronic/2018/skim_2018_TTbar.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 3 -y 2018 -q workday
+python run_postprocessing.py -c configs/hadronic/2018/skim_signal_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/2018/ -n 20 -y 2018 -q longlunch
 
 !!!!!!!!!!!!!!!!!!!!!DON'T FORGET TO COPY THE TARBALL IF YOU CHANGE SOMETHING !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
+
+
 #SingleMuon
-python run_postprocessing.py -c configs/semileptonic/skim_single_m_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2016/ -n 20 -y 2016 -q workday --CR
 
+python run_postprocessing.py -c configs/semileptonic/2016/skim_single_m_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2016/ -n 20 -y 2016 -q workday --CR
+#mc is done in the single electron part
 
-python run_postprocessing.py -c configs/semileptonic/skim_data_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2017/ -n 4 -y 2017 -q workday --CR
-python run_postprocessing.py -c configs/semileptonic/skim_mc_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2017/ -n 4 -y 2017 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2017/skim_data_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2017/ -n 4 -y 2017 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2017/skim_mc_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2017/ -n 4 -y 2017 -q workday --CR
 
-python run_postprocessing.py -c configs/semileptonic/skim_data_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2018/ -n 4 -y 2018 -q workday --CR
-python run_postprocessing.py -c configs/semileptonic/skim_mc_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2018/ -n 4 -y 2018 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2018/skim_data_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2018/ -n 4 -y 2018 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2018/skim_mc_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/CR/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/CR/2018/ -n 4 -y 2018 -q workday --CR
+
 
 
 #SingleElectron
-python run_postprocessing.py -c configs/semileptonic/skim_single_e_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2016/ -n 30 -y 2016 -q workday --CR
-python run_postprocessing.py -c configs/semileptonic/skim_single_e_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2017/ -n 4 -y 2017 -q workday --CR
-python run_postprocessing.py -c configs/semileptonic/skim_egamma_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2018/ -n 4 -y 2018 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2016/skim_single_e_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2016/ -n 30 -y 2016 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2016/skim_mc_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2016/ -n 10 -y 2016 -q workday --CR
 
-python run_postprocessing.py -c configs/semileptonic/skim_mc_2016.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2016/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2016/ -n 10 -y 2016 -q workday --CR
-python run_postprocessing.py -c configs/semileptonic/skim_mc_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2017/ -n 2 -y 2017 -q workday --CR
-python run_postprocessing.py -c configs/semileptonic/skim_mc_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2018/ -n 2 -y 2018 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2017/skim_single_e_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2017/ -n 4 -y 2017 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2017/skim_mc_2017.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2017/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2017/ -n 2 -y 2017 -q workday --CR
+
+
+python run_postprocessing.py -c configs/semileptonic/2018/skim_egamma_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2018/ -n 4 -y 2018 -q workday --CR
+python run_postprocessing.py -c configs/semileptonic/2018/skim_mc_2018.json -o /eos/cms/store/group/phys_b2g/XToHYTo4B/UL_skims/SingleElectron/2018/ -j /afs/cern.ch/work/m/mrogulji/UL_prod/CMSSW_10_6_14/src/PhysicsTools/NanoAODTools/scripts/jobsDir/SingleElectron/2018/ -n 2 -y 2018 -q workday --CR

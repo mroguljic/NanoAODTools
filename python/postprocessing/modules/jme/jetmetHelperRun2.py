@@ -67,7 +67,7 @@ jecTagsDATA = {
 }
 
 jerTagsMC = {
-    '2016': 'Summer16_25nsV1_MC',
+    '2016': 'Summer16_25nsV1b_MC',
     '2017': 'Fall17_V3_MC',
     '2018': 'Autumn18_V7b_MC',
     'UL2017': 'Summer19UL17_JRV2_MC',
